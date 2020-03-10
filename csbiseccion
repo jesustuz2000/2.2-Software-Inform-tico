@@ -1,0 +1,82 @@
+
+package Unidad2;
+
+public class csBiseccion {
+    private int iteracion;
+    private double Xi, Xs, Xr,Fi,Fr,producto,error;
+
+    public int getIteracion() {
+        return iteracion;
+    }
+
+    public void setIteracion(int iteracion) {
+        this.iteracion = iteracion;
+    }
+
+    public double getXi() {
+        return Xi;
+    }
+
+    public void setXi(double Xi) {
+        this.Xi = Xi;
+    }
+
+    public double getXs() {
+        return Xs;
+    }
+
+    public void setXs(double Xs) {
+        this.Xs = Xs;
+    }
+
+    public double getXr() {
+        return Xr;
+    }
+
+    public void setXr(double Xr) {
+        this.Xr = Xr;
+    }
+
+    public double getFi() {
+        return Fi;
+    }
+
+    public void setFi(double Fi) {
+        this.Fi = Fi;
+    }
+
+    public double getFr() {
+        return Fr;
+    }
+
+    public void setFr(double Fr) {
+        this.Fr = Fr;
+    }
+
+    public double getProducto() {
+        return producto;
+    }
+
+    public void setProducto(double producto) {
+        this.producto = producto;
+    }
+
+    public double getError() {
+        return error;
+    }
+
+    public void setError(double error) {
+        this.error = error;
+    }
+
+    @Override
+    public String toString() {
+         System.out.println("Fxi "+Fi+" Fxr"+Fr+" Producto: "+producto+" Iteracion: "+iteracion+" xi: "+Xi+" Xs: "+Xs+" Xr: "+Xs+" Error: "+error);
+         return super.toString(); //To change body of generated methods, choose Tools | Templates.
+
+        
+    }
+    
+    
+    
+}
